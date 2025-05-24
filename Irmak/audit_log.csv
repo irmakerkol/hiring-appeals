@@ -1,0 +1,6 @@
+timestamp,applicant_id,features,prediction
+2025-05-24T16:38:20.317413,app_0,"{""sex_male"": 1.0, ""race_white"": 1.0, ""years_experience"": -1.1262528408665076, ""referred"": 1.0, ""gcse"": 1.9698233735689108, ""a_level"": 1.115546583271484, ""russell_group"": 1.0, ""honours"": 1.0, ""years_volunteer"": -0.7047622057289629, ""income"": 0.1361053634312644, ""it_skills"": 0.3630374815958068, ""years_gaps"": -0.70406710637016, ""quality_cv"": 0.2539813988889187}",0
+2025-05-24T16:51:16.178119,830e8be7-1bc4-4823-ada2-a9324f895999,"{""applicant_id"": ""830e8be7-1bc4-4823-ada2-a9324f895999"", ""reason"": ""I truely believe I am the perfect fit for this role.""}",0
+2025-05-24T17:00:13.412042,830e8be7-1bc4-4823-ada2-a9324f895999,"{""applicant_id"": ""830e8be7-1bc4-4823-ada2-a9324f895999""}",0
+2025-05-24T17:00:43.648677,830e8be7-1bc4-4823-ada2-a9324f895999,"{""applicant_id"": ""830e8be7-1bc4-4823-ada2-a9324f895999""}",0
+2025-05-24T17:01:12.167543,830e8be7-1bc4-4823-ada2-a9324f895999,"{""applicant_id"": ""830e8be7-1bc4-4823-ada2-a9324f895999""}",0

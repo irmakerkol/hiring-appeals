@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Resolve Appeal</title></head>
+<body>
+  <h1>Resolve Appeal for {{ appeal.applicant_id }}</h1>
+  <p><strong>Reason:</strong> {{ appeal.reason }}</p>
+  <form method="post">
+    <label>
+      Status:
+      <select name="status">
+        <option value="APPROVED">Approve</option>
+        <option value="REJECTED">Reject</option>
+      </select>
+    </label><br><br>
+    <label>Reviewer Notes:<br>
+      <textarea name="notes" rows="3"></textarea>
+    </label><br><br>
+    <button type="submit">Submit Resolution</button>
+  </form>
+  <p><a href="/appeals">Back to Appeals</a></p>
+</body>
+</html>

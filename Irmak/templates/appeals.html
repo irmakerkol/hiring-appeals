@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Open Appeals</title></head>
+<body>
+  <h1>Open Appeals</h1>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>Appeal ID</th><th>Applicant ID</th><th>Reason</th><th>Action</th>
+    </tr>
+    {% for a in appeals %}
+    <tr>
+      <td>{{ a.appeal_id }}</td>
+      <td>{{ a.applicant_id }}</td>
+      <td>{{ a.reason }}</td>
+      <td><a href="{{ url_for('resolve', appeal_id=a.appeal_id) }}">Resolve</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+  <p><a href="/login">Log out</a></p>
+</body>
+</html>

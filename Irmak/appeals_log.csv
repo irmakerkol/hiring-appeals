@@ -1,0 +1,5 @@
+appeal_id,timestamp,applicant_id,reason,status,reviewer_notes,review_timestamp
+830e8be7-1bc4-4823-ada2-a9324f895999,2025-05-24T16:38:20.319422,app_0,Please reconsider my application; I have undocumented volunteer work.,APPROVED,Volunteer hours verified manually.,2025-05-24T16:38:20.332727
+86f9953e-57f4-430b-8d30-0e6749ac7723,2025-05-24T17:00:13.414599,830e8be7-1bc4-4823-ada2-a9324f895999,I believe I deserve fair chance and it is wrong.,REJECTED,No.,2025-05-24T17:00:31.634901
+ea129b77-6cde-4e08-aa3a-85ae8b453ff1,2025-05-24T17:00:43.649992,830e8be7-1bc4-4823-ada2-a9324f895999,sadasd,OPEN,,
+a11495aa-18ac-4835-a9d8-66f12c7ce4d5,2025-05-24T17:01:12.172711,830e8be7-1bc4-4823-ada2-a9324f895999,asd,REJECTED,,2025-05-24T17:01:27.441983
